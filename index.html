@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrafoMIADL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Wilkommen zur TrafoMIADL</h1>
+    
+    <!-- Table with content -->
+    <table border="1">
+        <tr>
+            <th>Namen</th>
+            <th>Michi</th>
+            <th>Ischant</th>
+            <th>Abi</th>
+            <th>Daniel</th>
+            <th>Lorenzo</th>
+        </tr>
+        <tr>
+            <td>Training ändern</td>
+            <td>
+                <button class="plus" data-target="michi">+1</button>
+                <button class="minus" data-target="michi">-1</button>
+            </td>
+            <td>
+                <button class="plus" data-target="ischant">+1</button>
+                <button class="minus" data-target="ischant">-1</button>
+            </td>
+            <td>
+                <button class="plus" data-target="abi">+1</button>
+                <button class="minus" data-target="abi">-1</button>
+            </td>
+            <td>
+                <button class="plus" data-target="daniel">+1</button>
+                <button class="minus" data-target="daniel">-1</button>
+            </td>
+            <td>
+                <button class="plus" data-target="lorenzo">+1</button>
+                <button class="minus" data-target="lorenzo">-1</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Anzahl</td>
+            <td id="michi">0</td>
+            <td id="ischant">0</td>
+            <td id="abi">0</td>
+            <td id="daniel">0</td>
+            <td id="lorenzo">0</td>
+        </tr>
+        <tr>
+            <td>Bild</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Rang</td>
+            <td id="rank-michi">-</td>
+            <td id="rank-ischant">-</td>
+            <td id="rank-abi">-</td>
+            <td id="rank-daniel">-</td>
+            <td id="rank-lorenzo">-</td>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
